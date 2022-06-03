@@ -1,0 +1,46 @@
+# local stuff
+Documentation/
+Files/
+Scripts/
+dev/
+docs/
+data/
+*.env
+
+# archive files
+*.zip
+
+# python environment
+envs/
+
+# git 
+.git/
+
+# VS Code
+.vscode/
+
+# ignore input/output files
+*.txt
+*.csv
+*.html
+*.xls
+*.xlsx
+
+
+# ignore .ipynb files
+*.ipynb
+# ignore .ipynb_checkpoints directory
+.ipynb_checkpoints/
+
+# compiled python 
+__pycache__/
+*.pyc
+
+# SFTP files
+.ssh/
+*.key
+*.ppk
+
+# log files
+logs/
+*.log
