@@ -237,7 +237,7 @@ if __name__ == "__main__":
 
     today = dt.datetime.now().strftime("%Y%m%d")
 
-    parser = ap.ArgumentParser(description="Reads fixed width, AP Test Scores file and writes file listing students and their test scores.")
+    parser = ap.ArgumentParser(description="Reads decrypted, fixed width, College Board AP Test Scores file and writes file listing students and their test scores.")
     parser.add_argument("input_filename", type=str, help="the name of the input file to be read")
 
     args = parser.parse_args()
