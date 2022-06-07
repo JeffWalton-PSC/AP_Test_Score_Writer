@@ -218,8 +218,8 @@ def write_ap_scores(ap_scores_file: pathlib.Path, output_file: pathlib.Path) -> 
                 for s in exam_sets:
                     exam_code = f"ex{s:02d}_exam_code"
                     if d[exam_code]!='  ':
-                        print(f"exam: {d[exam_code]} {exam_name[d[exam_code]]:<{exam_name_width_max}}year: {d[f'ex{s:02d}_admin_year']} score: {d[f'ex{s:02d}_exam_score']} ")
-                        f_out.write(f"exam: {d[exam_code]} {exam_name[d[exam_code]]:<{exam_name_width_max}}year: {d[f'ex{s:02d}_admin_year']} score: {d[f'ex{s:02d}_exam_score']} \n")
+                        print(f"exam: {d[exam_code]} {exam_name[d[exam_code]]:<{exam_name_width_max}} year: {d[f'ex{s:02d}_admin_year']} score: {d[f'ex{s:02d}_exam_score']} ")
+                        f_out.write(f"exam: {d[exam_code]} {exam_name[d[exam_code]]:<{exam_name_width_max}} year: {d[f'ex{s:02d}_admin_year']} score: {d[f'ex{s:02d}_exam_score']} \n")
 
                 student_count += 1 
                 print(" -" * 40 + "\n")
